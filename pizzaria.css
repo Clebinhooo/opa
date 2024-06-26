@@ -1,0 +1,95 @@
+.opa {
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 5px gray;
+    border: solid 1px black;
+}
+body {
+    background: url('eita.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
+.L {
+    font-size: 50px;
+    -webkit-text-stroke: 1px gray;
+    position: absolute;
+    text-align: center;
+    bottom: 90%;
+    right: 28%;
+}
+.sim {
+    font-size: 50px;
+    -webkit-text-stroke: 1px gray;
+    position: absolute;
+    text-align: center;
+    bottom: 110%;
+    right: 35%;
+}
+input {
+    width: 300px;
+    height: 25px;
+    background-color: rgb(190, 190, 190);
+    color: white;
+    border: solid 3px rgb(109, 109, 109);
+    border-radius: 20px;
+    box-shadow: rgb(198, 198, 198) 3px 3px 4px;
+}
+main {
+    font-size: 40px;
+    position: absolute;
+}
+button {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 4px gray;
+}
+.gatito {
+    background-color: transparent;
+    border-radius: 30px;
+    width: 570px;
+    height: 600px;
+    position:absolute;
+    align-items: center;
+    left: 33%;
+    right: 50%;
+    backdrop-filter: blur(10px);
+    border: solid 2px gray;
+}
+.eita {
+    text-align: center;
+    position: absolute;
+    bottom: 34%;
+    right: 16%;
+    left: 20%;
+}
+.legal {
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    border: solid 2px gray;
+    width: 1080px;
+    height: 500px;
+    position: absolute;
+    align-items: center;
+    border-radius: 20px;
+    
+
+}
+h2 {
+    -webkit-text-stroke: 1px rgb(89, 89, 89);
+}
